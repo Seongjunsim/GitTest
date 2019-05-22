@@ -2,9 +2,14 @@
 #include "myheader.h"
 
 int main(void) {
-printHello();
-printBye();
+	char name[17] = {0,};
+	
+	printf("Name: ");
+	scanf("%s", name);
 
-return 0;
+	printHello();
+	printBye();
+
+	return 0;
 }
 
